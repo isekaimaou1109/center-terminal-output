@@ -1,12 +1,25 @@
 {
   "name": "center-terminal-output",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This is just a simple lib for align terminal output in nodejs.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc ./index.ts --outDir ./build"
   },
   "author": "yoki-sama",
-  "keywords": ["align-center", "center-output", "center-text", "text", "align-text", "centerize-text-in-all"],
-  "license": "ISC"
+  "keywords": [
+    "align-center",
+    "center-output",
+    "center-text",
+    "text",
+    "align-text",
+    "centerize-text-in-all"
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "@isekaimaouyoki-sama/get-ip": "^1.0.0",
+    "@types/node": "^16.11.12",
+    "typescript": "^4.5.3"
+  }
 }
